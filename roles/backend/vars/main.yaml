@@ -1,2 +1,4 @@
 mysql_root_password: Expense@1
 login_host: mysql.jagathlearn.art
+app_location: /app
+component: backend
