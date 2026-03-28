@@ -1,5 +1,7 @@
 - name: configure mysql server
   hosts: mysql
-  become: yes
+  become: yes #remote server ki root access
+  vars_files:
+  - /var/expense/credentials_mysql.yaml #path must be there else you will get error #ansible server
   roles:
   - mysql 
