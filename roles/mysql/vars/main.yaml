@@ -1,3 +1,4 @@
 # mysql_root_password: ExpenseApp@1
 # login_host: mysql.jagathlearn.art
 #we can place non confidential data under vars like hosts names etc
+
