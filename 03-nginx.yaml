@@ -1,6 +1,6 @@
 - name: install nginx server and run
-  #hosts: nginx #give nginx private ip
-  hosts: all
+  hosts: nginx #give nginx private ip
+  #hosts: all
   become: yes #take sudo access
   serial: 3
   tasks: 
